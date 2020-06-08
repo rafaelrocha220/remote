@@ -2,8 +2,8 @@ import socket
 import threading
 import sys
 
-server = "192.168.1.72"
-port = 5555
+server = "192.168.56.1"
+port = 9998
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
